@@ -7,7 +7,7 @@ fn main() {
   use std::time::Instant;
   let now = Instant::now();
   {
-    // let data = fs::read_to_string("./updateCSV.csv").expect("Unable to read file");
+    // let data = fs::read_to_string("./bigCsvFile.csv").expect("Unable to read file");
     // println!("{}", data);
     fn read_file_line_by_line(filepath: &str) -> Result<(), Box<dyn std::error::Error>> {
       let file = File::open(filepath)?;
@@ -19,7 +19,7 @@ fn main() {
 
       Ok(())
     }
-    read_file_line_by_line("./updateCSV.csv");
+    read_file_line_by_line("./bigCsvFile.csv");
   }
   let elapsed = now.elapsed();
   println!("Elapsed: {:.2?}", elapsed);

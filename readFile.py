@@ -4,7 +4,7 @@ import time
 def read_file():
   print("PYTHON! BORA!!")
   x = 1
-  file = "updateCSV.csv"
+  file = "bigCsvFile.csv"
 
   tic = time.perf_counter()
   f = open(file, mode='r', encoding='utf-8')

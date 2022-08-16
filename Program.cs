@@ -7,7 +7,7 @@ namespace Program
         static void Main(string[] args)
         {
             var watch = Stopwatch.StartNew();
-            using (StreamReader reader = File.OpenText("updateCSV.csv"))
+            using (StreamReader reader = File.OpenText("bigCsvFile.csv"))
                 while (!reader.EndOfStream)
                 {
                     string line = reader.ReadLine();

@@ -1,18 +1,18 @@
 package main
 
 import (
-    "fmt"
-    "os"
-    "time"
+	"fmt"
+	"os"
+	"time"
 )
 
 func main() {
-    fmt.Printf("AGORA VAI - GO!!!!")
-    start := time.Now()
+	fmt.Printf("AGORA VAI - GO!!!!")
+	start := time.Now()
 
-    dat, _ := os.ReadFile("updateCSV.csv")
-    fmt.Printf(string(dat))
+	dat, _ := os.ReadFile("bigCsvFile.csv")
+	fmt.Printf(string(dat))
 
-    elapsed := time.Since(start)
-    fmt.Printf("Go took %s seconds", elapsed)
+	elapsed := time.Since(start)
+	fmt.Printf("Go took %s seconds", elapsed)
 }

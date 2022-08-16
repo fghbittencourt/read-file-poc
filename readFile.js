@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const file = 'updateCSV.csv';
+const file = 'bigCsvFile.csv';
 console.log('NODE - VAMO LÁ');
 console.time('Total time ');
 
