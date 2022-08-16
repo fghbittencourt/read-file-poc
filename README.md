@@ -22,7 +22,7 @@ Pré-requisito: colocar um arquivo, de preferencia bem grande, na pasta raiz do 
 ### Python
 
 - Ter python 3 instalado na máquina
-- rodar `python3 read_file.py``
+- rodar `python3 read_file.py`
 
 ### Rust
 
