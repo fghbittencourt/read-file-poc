@@ -12,7 +12,7 @@
 
 ## Como rodar
 
-Pré-requisito: colocar um arquivo, de preferencia bem grande, na pasta raiz do projeto com o nome `bigCsvFile.csv. Todos os comandos devem ser executados na raiz do projeto.
+Pré-requisito: colocar um arquivo, de preferencia bem grande, na pasta raiz do projeto com o nome `bigCsvFile.csv`. Todos os comandos devem ser executados na raiz do projeto.
 
 ### Node
 
